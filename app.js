@@ -16,15 +16,15 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
  
-var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v12";
-mongoose.connect(url);
+//var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v12";
+mongoose.connect("mongodb://jack:kq320qd@ds133547.mlab.com:33547/yelpcamp-kq320");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
-// seedDB(); //seed the database
+seedDB();
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
