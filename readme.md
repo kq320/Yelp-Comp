@@ -28,7 +28,7 @@ npm install
 Run app
 
 ```
-node server.js
+node app.js
 open http://localhost:8080
 ```
 
