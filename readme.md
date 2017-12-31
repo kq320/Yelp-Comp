@@ -2,20 +2,17 @@
 The website deployed in the Heroko
 https://pure-taiga-61660.herokuapp.com/
 
-# Onews
-Real Time News Scraping and Recommendation System
-
 ### Description
-Single web application on news scraping and recommandation
+Full Stack web application based on Node.js, Express.js, and MongoDB.
 
 ### Structure
 - Front end
   - client side
   - node server side
 - Backend server
-  - Redis
+  - Node.js 
+  - Express.js
   - MongoDB
-  - Machine Learning server
   
 ### Installing
 
@@ -35,4 +32,4 @@ nodemon index
 open http://localhost:3000
 ```
 
-Now you can use this chat app,
+Now you can use this app,
