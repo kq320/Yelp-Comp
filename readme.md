@@ -28,8 +28,8 @@ npm install
 Run app
 
 ```
-nodemon index
-open http://localhost:3000
+node server.js
+open http://localhost:8080
 ```
 
 Now you can use this app,
